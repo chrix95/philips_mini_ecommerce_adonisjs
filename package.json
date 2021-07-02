@@ -12,6 +12,9 @@
     "adonisjs",
     "adonis-app"
   ],
+  "engines": {
+    "node": "14.16.0"
+  },
   "author": "",
   "license": "UNLICENSED",
   "private": true,
@@ -27,7 +30,8 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
     "@adonisjs/validator": "^5.1.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "url-parse": "^1.5.1"
   },
   "devDependencies": {},
   "autoload": {
