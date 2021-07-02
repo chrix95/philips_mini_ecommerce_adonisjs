@@ -44,5 +44,3 @@ Route.group(() => {
     Route.put('/product/subcategory/:id', 'ProductSubCategoryController.update').middleware('auth')
     Route.delete('product/subcategory/:id', 'ProductSubCategoryController.destroy').middleware('auth')
 }).prefix("/api/v1")
-
-// Route.get('/test/:id', ({ params }) => `This is the post id of ${params.id}`)
